@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/brain.js@1.6.0/browser.js"></script>
+    <meta charset="utf-8" />
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color:#AAA; 
+        }
+        canvas {
+            display: block;
+        }
+
+        button{
+          width:90px;
+          height:30px;
+          background-color:black;
+          border-radius:50px;
+          color:white;
+        }
+
+    </style>
+  </head>
+  <body>
+	<button id="btn">Reset</button>
+    <button id="btn_1">Train</button>
+    <button id="btn_2">Test</button>
+    <input type="text" id="name">
+    <script src="sketch.js"></script>
+  </body>
+</html>
